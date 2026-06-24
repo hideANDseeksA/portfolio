@@ -5,7 +5,7 @@ import { Reveal } from "./Reveal"
 import { GraduationCap, Award, ExternalLink, X } from "lucide-react"
 import Csscert from "../assets/Css.png"
 import Epascert from "../assets/Epas.png"
-import Jscert from "../assets/Jscert.png"
+import Jscert from "../assets/JScert.png"
 
 const education = [
   {
