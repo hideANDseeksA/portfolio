@@ -25,7 +25,7 @@ const projects = [
     live: "https://mc-ccs-batch-25-26.github.io/documentation-repository-ths-25-26-fork-force/",
     featured: true,
     tag: "Capstone",
-    role: "Lead Developer",
+    role: "Full Stack Developer",
     accent: "#818cf8",
   },
     {
@@ -52,7 +52,7 @@ const projects = [
     live: null,
     featured: false,
     
-    role: "Sole Developer",
+    role: "Backend Developer",
     accent: "#34d399",
   },
   {
@@ -66,7 +66,7 @@ const projects = [
     live: null,
     featured: false,
     tag: "Documentation",
-    role: "Technical Writer",
+    role: "Full Stack Developer",
     accent: "#38bdf8",
   },
   {

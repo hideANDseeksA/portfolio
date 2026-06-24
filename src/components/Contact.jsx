@@ -3,8 +3,9 @@ import { Button } from "./ui/button"
 import { Card } from "./ui/card"
 import { Reveal } from "./Reveal"
 import { useContactGuard } from "../hooks/useContactGuard"
-import { Mail, GitBranch, Link2, Send, CheckCircle, Loader2, ShieldAlert, Clock } from "lucide-react"
+import { Mail, GitBranch, Link2, Send, CheckCircle, Loader2, ShieldAlert, Clock, FileText } from "lucide-react"
 import emailjs from "@emailjs/browser"
+import CV from "../assets/jhon-brayn-rafer-cv.pdf"
 
 const links = [
   { icon: Mail,      label: "Email",    value: "jhonbraynrafer@gmail.com",      href: "mailto:jhonbraynrafer@gmail.com",    accent: "#818cf8" },
@@ -120,14 +121,22 @@ export function Contact() {
               </Card>
             ))}
 
-            {/* Status */}
-            <div className="p-4 rounded-xl border border-emerald-500/20 bg-emerald-500/5">
-              <div className="flex items-center gap-2 text-emerald-400 text-sm font-mono">
-                <div className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-                Status: Available
+            {/* CV / Resume */}
+            <a
+              href={CV}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-4 rounded-xl border border-emerald-500/20 bg-emerald-500/5 flex items-center justify-between group hover:bg-emerald-500/10 hover:border-emerald-500/35 transition-colors"
+            >
+              <div>
+                <div className="flex items-center gap-2 text-emerald-400 text-sm font-mono">
+                  <div className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                  View my CV
+                </div>
+                <p className="text-xs text-slate-500 mt-1">See my full resume &amp; experience</p>
               </div>
-              <p className="text-xs text-slate-500 mt-1">Actively looking for opportunities</p>
-            </div>
+              <FileText size={16} className="text-emerald-400 shrink-0 group-hover:translate-x-0.5 transition-transform" />
+            </a>
 
             {/* Cache: show last sent time if any */}
             {lastSent && (
