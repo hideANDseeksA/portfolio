@@ -5,27 +5,11 @@ import { getToolColor } from "@/lib/techColors"
 import { Briefcase } from "lucide-react"
 
 const experiences = [
-  {
-    role: "Full-Stack Developer (Freelance)",
-    company: "Self-Employed",
-    period: "2024 — Present",
-    type: "Freelance",
-    description:
-      "Building production-grade web systems for clients. Currently developing an HR Management System using FastAPI, SQLAlchemy async, and multi-schema PostgreSQL with role-based access control.",
-    highlights: [
-      "Designed async-first API architecture with FastAPI & asyncpg",
-      "Implemented RBAC with Super Admin, HR Manager, Dept Head roles",
-      "Multi-schema PostgreSQL setup with Alembic migrations",
-      "Feature-based vertical slice architecture",
-    ],
-    tech: ["FastAPI", "Python", "PostgreSQL", "SQLAlchemy", "Alembic"],
-    current: true,
-    accent: "#34d399",
-  },
+
   {
     role: "Lead Developer — SmartBarangay",
     company: "Mabini Colleges, Inc. · Team Fork Force",
-    period: "2024 — 2025",
+    period: "2025 — 2026",
     type: "Academic",
     description:
       "Led development of SmartBarangay, a unified e-governance web system for Barangay Lag-on, Daet under the Design Science Research framework. Coordinated a team of 5 across 3 Agile sprints.",

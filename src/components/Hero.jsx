@@ -7,7 +7,7 @@ const roles = [
   "Backend Developer",
   "Database Designer",
   "Quality Assurance",
-  "CS Student @ Mabini",
+  "User Experience Enthusiast",
 ]
 
 export function Hero() {
@@ -69,7 +69,7 @@ export function Hero() {
         </div>
 
         <p className="text-slate-400 text-base sm:text-lg md:text-xl max-w-2xl mx-auto leading-relaxed mb-8 sm:mb-10 animate-fade-up" style={{ animationDelay: "0.3s" }}>
-          Building web systems that actually solve problems. Currently crafting{" "}
+          Building web systems that actually solve problems. Developed{" "}
           <span className="text-indigo-300 font-medium">SmartBarangay</span> — a unified e-governance
           platform for local communities in the Philippines.
         </p>
@@ -81,9 +81,9 @@ export function Hero() {
 
         <div className="flex items-center justify-center gap-3 sm:gap-4 mt-8 sm:mt-10 animate-fade-up" style={{ animationDelay: "0.5s" }}>
           {[
-            { icon: GitBranch, href: "https://github.com", label: "GitHub" },
-            { icon: Link2, href: "https://linkedin.com", label: "LinkedIn" },
-            { icon: Mail, href: "mailto:JB@example.com", label: "Email" },
+            { icon: GitBranch, href: "https://github.com/hideANDseeksA", label: "GitHub" },
+            { icon: Link2, href: "https://www.linkedin.com/in/jhon-brayn-rafer-a82b22362/", label: "LinkedIn" },
+            { icon: Mail, href: "mailto:jhonbrayn@gmail.com", label: "Email" },
           ].map(({ icon: Icon, href, label }) => (
             <a key={label} href={href} target="_blank" rel="noopener noreferrer"
               className="p-2.5 rounded-lg border border-white/10 text-slate-500 hover:text-indigo-400 hover:border-indigo-500/40 hover:bg-indigo-500/5 hover:-translate-y-0.5 transition-all duration-200">

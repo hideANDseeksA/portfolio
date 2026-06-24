@@ -3,9 +3,9 @@ import { Reveal } from "./Reveal"
 import { GraduationCap, MapPin, Code2, Layers } from "lucide-react"
 
 const stats = [
-  { label: "Projects built", value: "8+", accent: "#818cf8" },
-  { label: "Modules shipped", value: "7", accent: "#34d399" },
-  { label: "Sprints completed", value: "3", accent: "#38bdf8" },
+  { label: "Projects built", value: "6", accent: "#818cf8" },
+  { label: "Certifications", value: "3", accent: "#34d399" },
+  { label: "Work Experience", value: "2", accent: "#38bdf8" },
   { label: "Tech stack depth", value: "Full", accent: "#fb923c" },
 ]
 
@@ -17,12 +17,14 @@ export function About() {
           <Reveal direction="left">
             <p className="font-mono text-indigo-400 text-sm mb-3">// about me</p>
             <h2 className="font-display text-3xl sm:text-4xl font-bold mb-6">
-              I build things for the <span className="text-gradient">web</span>
+              Building solutions that <span className="text-gradient">matter</span>
             </h2>
             <p className="text-slate-400 leading-relaxed mb-4">
-              I'm a Computer Science student at <span className="text-slate-300">Mabini Colleges, Inc.</span>,
-              currently in my final year. My capstone project, SmartBarangay, is a full-stack web system that
-              digitizes barangay governance operations — from resident management to blotter records,complaints and health tracking.
+            I'm a fresh graduate with a Bachelor of Science in Computer Science from 
+<span className="text-slate-300"> Mabini Colleges, Inc. </span>
+My capstone project, SmartBarangay, is a full-stack system that digitizes
+barangay governance operations—from resident management and blotter records
+to complaints and health tracking.
             </p>
       
             <p className="text-slate-400 leading-relaxed">

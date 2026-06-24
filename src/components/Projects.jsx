@@ -7,6 +7,7 @@ import { getToolColor } from "@/lib/techColors"
 import { ExternalLink, GitBranch, Star, ImageOff, Maximize2, Globe } from "lucide-react"
 import ApimsImage from "../assets/Apims.png";
 import CloudLibraryImage from "../assets/Cloud-Library.png";
+import EasyDocsImage from "../assets/image.png";
 
 // Set `image` to an actual image file (png/jpg/webp) when you have a
 // screenshot. Leave it null/empty if you don't — as long as `live` is set,
@@ -55,12 +56,12 @@ const projects = [
     accent: "#34d399",
   },
   {
-    name: "SmartBarangay Docs",
-    tagline: "MkDocs documentation repository",
+    name: "Barangay Easy Docs",
+    tagline: "Certificate generation and resident management.",
     description:
-      "Comprehensive documentation site for the SmartBarangay thesis — sprint retrospectives, ISO 25010-aligned UAT results, SDG alignment (SDG 3, 11, 16), and full system architecture docs.",
-    image: "https://placehold.co/1200x680/1E2640/a5b4fc?text=Docs+Repo&font=montserrat",
-    tech: ["MkDocs", "Markdown", "GitHub Actions"],
+      "A web-based system that allows residents to request certificates online. Features resident management, certificate generation.",
+    image: EasyDocsImage,
+    tech: ["React", "Vite", "Tailwind CSS", "JavaScript","Express.js","Supabase","Vercel"],
     github: null,
     live: null,
     featured: false,

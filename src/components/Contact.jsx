@@ -9,7 +9,7 @@ import emailjs from "@emailjs/browser"
 const links = [
   { icon: Mail,      label: "Email",    value: "jhonbraynrafer@gmail.com",      href: "mailto:jhonbraynrafer@gmail.com",    accent: "#818cf8" },
   { icon: GitBranch, label: "GitHub",   value: "github.com",       href: "https://github.com/hideANDseeksA",       accent: "#34d399" },
-  { icon: Link2,     label: "LinkedIn", value: "linkedin.com",  href: "https://www.linkedin.com/in/jhon-brayn-rafer-a82b22362/?skipRedirect=true",     accent: "#38bdf8" },
+  { icon: Link2,     label: "LinkedIn", value: "linkedin.com",  href: "https://www.linkedin.com/in/jhon-brayn-rafer-a82b22362/",     accent: "#38bdf8" },
 ]
 
 /* ── Spinner shown during send ── */
