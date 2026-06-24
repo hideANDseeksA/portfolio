@@ -5,7 +5,7 @@ import { GraduationCap, MapPin, Code2, Layers } from "lucide-react"
 const stats = [
   { label: "Projects built", value: "6", accent: "#818cf8" },
   { label: "Certifications", value: "3", accent: "#34d399" },
-  { label: "Work Experience", value: "2", accent: "#38bdf8" },
+  { label: "Experience", value: "2", accent: "#38bdf8" },
   { label: "Tech stack depth", value: "Full", accent: "#fb923c" },
 ]
 
